@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+
+        }
+        document.write{
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+   <h1> O resultado de sua conta é:</h1>
+    <script>
+        var sinal = window.prompt("coloque + para soma, - para subtração, * para multiplicação, / para divisão")
+        const numero1 = parseFloat(window.prompt ('diga um numero'))
+        const numero2 = parseFloat(window.prompt ('diga o segundo numero'))
+        if (sinal=="+"){
+        soma=numero1+numero2
+        document.write(soma)}
+        if (sinal=="-")
+          {sub = numero1-numero2
+          document.write(sub)}
+        if(sinal=="*"){
+            mult=numero1*numero2
+            document.write(mult)
+        }
+        if(sinal=="/"){
+            div = numero1/numero2
+            document.write(div)
+        }
+    
+
+    </script>
+</body>
+</html>
